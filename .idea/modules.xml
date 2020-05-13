@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="starterlibrarysample/app" />
+      <module fileurl="file://$PROJECT_DIR$/basestructure/basestructure.iml" filepath="$PROJECT_DIR$/basestructure/basestructure.iml" group="starterlibrarysample/basestructure" />
+      <module fileurl="file://$PROJECT_DIR$/starterlibrarysample.iml" filepath="$PROJECT_DIR$/starterlibrarysample.iml" group="starterlibrarysample" />
+    </modules>
+  </component>
+</project>
