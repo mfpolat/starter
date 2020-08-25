@@ -1,6 +1,6 @@
 package com.mfpolat.starter.network
 
-import com.appfab.cozgec.network.ApiErrorResponse
+import com.mfpolat.starter.network.ApiErrorResponse
 
 open class BaseResponse : ApiErrorResponse() {
     var message: String? = null

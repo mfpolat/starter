@@ -1,7 +1,7 @@
 package com.mfpolat.starter.base
 
 import androidx.multidex.MultiDexApplication
-import com.appfab.basestructure.BuildConfig
+import com.mfpolat.starter.BuildConfig
 import com.mfpolat.starter.utils.CacheManager
 import com.mfpolat.starter.utils.DialogModule
 import com.mfpolat.starter.utils.ProgressDialogModule

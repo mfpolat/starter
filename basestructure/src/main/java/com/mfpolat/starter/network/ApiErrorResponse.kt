@@ -1,14 +1,14 @@
-package com.appfab.cozgec.network
+package com.mfpolat.starter.network
 
 
 open class ApiErrorResponse {
     constructor(
-            type: String? = null,
-            title: String? = null,
-            status: Int? = null,
-            invalid_params: List<InvalidParam>? = null,
-            detail: String? = null,
-            instance: String? = null
+        type: String? = null,
+        title: String? = null,
+        status: Int? = null,
+        invalid_params: List<InvalidParam>? = null,
+        detail: String? = null,
+        instance: String? = null
     ) {
         this.detail = detail
         this.instance = instance

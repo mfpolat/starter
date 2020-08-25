@@ -1,4 +1,4 @@
-package com.appfab.cozgec.network
+package com.mfpolat.starter.network
 
 import android.util.Log
 import com.mfpolat.starter.base.BaseNavigator
@@ -88,11 +88,11 @@ class ApiController(val baseUrl: String) : KoinComponent {
     }
 
     fun <DATAMODEL> fetch(
-            call: Call<DATAMODEL?>,
-            successFunction: (DATAMODEL) -> Unit = {},
-            errorFunction: (ApiErrorResponse) -> Unit = { apierrorResponse -> },
-            navigator: BaseNavigator? = null,
-            async: Boolean = true
+        call: Call<DATAMODEL?>,
+        successFunction: (DATAMODEL) -> Unit = {},
+        errorFunction: (ApiErrorResponse) -> Unit = { apierrorResponse -> },
+        navigator: BaseNavigator? = null,
+        async: Boolean = true
     ) {
         if (async) fetch(call, successFunction, errorFunction, navigator)
         else get(call, successFunction, errorFunction, navigator)
@@ -100,10 +100,10 @@ class ApiController(val baseUrl: String) : KoinComponent {
 
 
     private fun <DATAMODEL> fetch(
-            call: Call<DATAMODEL?>,
-            successFunc: (DATAMODEL) -> Unit = {},
-            errorFunc: (ApiErrorResponse) -> Unit = {},
-            navigator: BaseNavigator? = null
+        call: Call<DATAMODEL?>,
+        successFunc: (DATAMODEL) -> Unit = {},
+        errorFunc: (ApiErrorResponse) -> Unit = {},
+        navigator: BaseNavigator? = null
     ) {
         if (!cacheManager.context.isOnline()) {
             throwError(
@@ -144,10 +144,10 @@ class ApiController(val baseUrl: String) : KoinComponent {
     }
 
     private fun <DATAMODEL> get(
-            call: Call<DATAMODEL?>,
-            successFunction: (DATAMODEL) -> Unit = {},
-            errorFunction: (ApiErrorResponse) -> Unit = { apiErrorResponse -> },
-            navigator: BaseNavigator? = null
+        call: Call<DATAMODEL?>,
+        successFunction: (DATAMODEL) -> Unit = {},
+        errorFunction: (ApiErrorResponse) -> Unit = { apiErrorResponse -> },
+        navigator: BaseNavigator? = null
     ) {
         if (!cacheManager.context.isOnline()) {
             throwError(
@@ -188,11 +188,11 @@ class ApiController(val baseUrl: String) : KoinComponent {
     }
 
     private fun <DATAMODEL> handleResponse(
-            call: Call<DATAMODEL?>,
-            safeResponse: Response<DATAMODEL?>,
-            errorFunction: (ApiErrorResponse) -> Unit,
-            successFunction: (DATAMODEL) -> Unit,
-            navigator: BaseNavigator?
+        call: Call<DATAMODEL?>,
+        safeResponse: Response<DATAMODEL?>,
+        errorFunction: (ApiErrorResponse) -> Unit,
+        successFunction: (DATAMODEL) -> Unit,
+        navigator: BaseNavigator?
     ) {
         try {
             val responseBody = safeResponse.body()
@@ -250,9 +250,9 @@ class ApiController(val baseUrl: String) : KoinComponent {
     }
 
     private fun throwError(
-            errorFunction: ((ApiErrorResponse) -> Unit)?,
-            aresErrorResponse: ApiErrorResponse,
-            navigator: BaseNavigator?
+        errorFunction: ((ApiErrorResponse) -> Unit)?,
+        aresErrorResponse: ApiErrorResponse,
+        navigator: BaseNavigator?
     ) {
         errorFunction?.invoke(aresErrorResponse)
         navigator?.unhandledError(null)

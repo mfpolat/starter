@@ -1,4 +1,4 @@
-package com.appfab.basestructure
+package com.mfpolat.starter
 
 import org.junit.Test
 

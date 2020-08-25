@@ -17,7 +17,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.LifecycleRegistry
 import androidx.lifecycle.OnLifecycleEvent
-import com.appfab.basestructure.R
+import com.mfpolat.starter.R
 import com.mfpolat.starter.base.BaseActivity
 import org.jetbrains.anko.*
 import org.jetbrains.anko.appcompat.v7.Appcompat

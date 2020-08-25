@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.appfab.basestructure.R
+import com.mfpolat.starter.R
 import kotlinx.android.synthetic.main.item_network_state.view.*
 
 

@@ -2,7 +2,7 @@ package com.mfpolat.starter.base
 
 import android.os.Bundle
 import androidx.databinding.ViewDataBinding
-import com.appfab.basestructure.R
+import com.mfpolat.starter.R
 import com.mfpolat.starter.utils.DialogListener
 import com.tapadoo.alerter.Alerter
 import com.tapadoo.alerter.OnHideAlertListener
