@@ -1,11 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: com.androidadvance:topsnackbar:1.1.1@aar">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/64d91ee77f3480263b532c7e0ee18ff5/jetified-topsnackbar-1.1.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/cfc9f74802dbc6aa2a70e437f1f61a57/jetified-topsnackbar-1.1.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/14d673213780d3ae86d4bc7678471cf1/jetified-topsnackbar-1.1.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/64d91ee77f3480263b532c7e0ee18ff5/jetified-topsnackbar-1.1.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/64d91ee77f3480263b532c7e0ee18ff5/jetified-topsnackbar-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/cfc9f74802dbc6aa2a70e437f1f61a57/jetified-topsnackbar-1.1.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/cfc9f74802dbc6aa2a70e437f1f61a57/jetified-topsnackbar-1.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/cfc9f74802dbc6aa2a70e437f1f61a57/jetified-topsnackbar-1.1.1/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/14d673213780d3ae86d4bc7678471cf1/jetified-topsnackbar-1.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/14d673213780d3ae86d4bc7678471cf1/jetified-topsnackbar-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/14d673213780d3ae86d4bc7678471cf1/jetified-topsnackbar-1.1.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.androidadvance/topsnackbar/1.1.1/ec707f9718616f1fa0b0a83e2a25ffe30f97de4/topsnackbar-1.1.1-javadoc.jar!/" />

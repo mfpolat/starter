@@ -1,8 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: org.jetbrains.anko:appcompatV7-base:0.10.8@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/9880ceb6ebce1375cfaf9a5f5df9d06d/jetified-appcompatV7-base-0.10.8/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/9880ceb6ebce1375cfaf9a5f5df9d06d/jetified-appcompatV7-base-0.10.8/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/4973fc7a683999fc5397d5b801c24fb5/jetified-appcompatV7-base-0.10.8/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/4973fc7a683999fc5397d5b801c24fb5/jetified-appcompatV7-base-0.10.8/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/4973fc7a683999fc5397d5b801c24fb5/jetified-appcompatV7-base-0.10.8/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/e174c665423dd1e78598efc580967d86/jetified-appcompatV7-base-0.10.8/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/e174c665423dd1e78598efc580967d86/jetified-appcompatV7-base-0.10.8/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/e174c665423dd1e78598efc580967d86/jetified-appcompatV7-base-0.10.8/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

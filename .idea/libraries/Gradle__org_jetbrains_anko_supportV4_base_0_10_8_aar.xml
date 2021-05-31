@@ -1,8 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: org.jetbrains.anko:supportV4-base:0.10.8@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/f97ec74e6dbe5107180288a38e0c9e0f/jetified-supportV4-base-0.10.8/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/f97ec74e6dbe5107180288a38e0c9e0f/jetified-supportV4-base-0.10.8/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/d0c2c02294f5fc28d9687ab2f2911c91/jetified-supportV4-base-0.10.8/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/d0c2c02294f5fc28d9687ab2f2911c91/jetified-supportV4-base-0.10.8/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/d0c2c02294f5fc28d9687ab2f2911c91/jetified-supportV4-base-0.10.8/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/6bc4f59944bfc5b10af33e83f7c3fcc4/jetified-supportV4-base-0.10.8/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/6bc4f59944bfc5b10af33e83f7c3fcc4/jetified-supportV4-base-0.10.8/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/6bc4f59944bfc5b10af33e83f7c3fcc4/jetified-supportV4-base-0.10.8/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

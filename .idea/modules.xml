@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="starterlibrarysample/app" />
-      <module fileurl="file://$PROJECT_DIR$/basestructure/basestructure.iml" filepath="$PROJECT_DIR$/basestructure/basestructure.iml" group="starterlibrarysample/basestructure" />
-      <module fileurl="file://$PROJECT_DIR$/starterlibrarysample.iml" filepath="$PROJECT_DIR$/starterlibrarysample.iml" group="starterlibrarysample" />
+      <module fileurl="file://$PROJECT_DIR$/starterlibrarysample.iml" filepath="$PROJECT_DIR$/starterlibrarysample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/starterlibrarysample.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/starterlibrarysample.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basestructure/starterlibrarysample.basestructure.iml" filepath="$PROJECT_DIR$/.idea/modules/basestructure/starterlibrarysample.basestructure.iml" />
     </modules>
   </component>
 </project>
